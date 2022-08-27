@@ -6,7 +6,7 @@ var password:string;
 
 
 
-procedure PrintError;
+procedure PrintError; // Процедура вывода ошибок
 begin
   case err of
   100: writeln ('Слишком короткий пароль');
